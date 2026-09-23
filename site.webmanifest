@@ -10,13 +10,13 @@
   "theme_color": "#eaf8f1",
   "icons": [
     {
-      "src": "/favicon.png?v=20260918-domain-1",
+      "src": "/profile-search-icon.png",
       "sizes": "96x96",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/assets/profile.jpg?v=20260918-domain-1",
+      "src": "/assets/profile.jpg?v=20260923-searchicon1",
       "sizes": "320x320",
       "type": "image/jpeg",
       "purpose": "any"

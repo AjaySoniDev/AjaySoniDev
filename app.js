@@ -75,10 +75,10 @@
   ensureMeta('creator', 'Ajay Soni');
 
   ensureLink('canonical', canonicalUrl);
-  const icon = ensureLink('icon', '/favicon.png?v=20260918-domain-1', { type: 'image/png', sizes: '96x96' });
+  const icon = ensureLink('icon', '/profile-search-icon.png', { type: 'image/png', sizes: '96x96' });
   icon.setAttribute('fetchpriority', 'high');
-  ensureLink('apple-touch-icon', '/assets/profile.jpg?v=20260918-domain-1', { sizes: '320x320' });
-  ensureLink('manifest', '/site.webmanifest?v=20260918-domain-1');
+  ensureLink('apple-touch-icon', '/assets/profile.jpg?v=20260923-searchicon1', { sizes: '320x320' });
+  ensureLink('manifest', '/site.webmanifest?v=20260923-searchicon1');
 
   ensurePropertyMeta('og:type', 'profile');
   ensurePropertyMeta('og:site_name', 'Ajay Soni');
@@ -89,6 +89,8 @@
   ensurePropertyMeta('og:image', profileImage);
   ensurePropertyMeta('og:image:secure_url', profileImage);
   ensurePropertyMeta('og:image:type', 'image/jpeg');
+  ensurePropertyMeta('og:image:width', '320');
+  ensurePropertyMeta('og:image:height', '320');
   ensurePropertyMeta('og:image:alt', 'Ajay Soni — Applied AI/ML & Computer Vision Systems Builder');
   ensurePropertyMeta('profile:first_name', 'Ajay');
   ensurePropertyMeta('profile:last_name', 'Soni');
